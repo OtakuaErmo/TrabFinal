@@ -24,4 +24,12 @@ Route::get('/teste', function () {
 Route::get('/teste2', function () {
     return view('teste2');
 });
-
+Route::get('/entrar', function () {
+    return view('login');
+});
+Route::get('/classe/numeros', function () {
+    return view('numeros');
+});
+Route::get('/classe/cores', function () {
+    return view('cores');
+});

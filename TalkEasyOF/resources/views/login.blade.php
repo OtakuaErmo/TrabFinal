@@ -10,12 +10,26 @@
         <link rel="stylesheet" href="{{ asset('site/style.css') }}">
     </head>
     <style>
+        body {
+            font-family: 'Varela Round', sans-serif;
+            background-color: whitesmoke;
+        }
+            .container{
+            text-align: center;
+        }
+        h1{
+            font-family: vedana;
+            text-align: center;
+        }
         .navbar .navbar-brand b {
             font-weight: bold;
             color: #10626d;
-        }
-
+	    }
     </style>
+
+
+      <title>Talk Easy</title>
+
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-cordanav">
             <a class="navbar-brand" href="/">Talk<b>Easy</b></a>
@@ -57,6 +71,40 @@
             </div>
           </nav>
 
+      <form>
+        <div class="container">
+      <div class="row">
+        <br>
+          <div class="col-4">
+            <br> <br>
+          </div>
+
+
+    <div class="col-4">
+          <br>
+          <h1>Login</h1>
+          <br>
+
+
+      <div class="form-group">
+      <label for="exampleInputEmail1">Login</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Senha</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+      <br>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+    </div>
+
+    <div class="col-4">
+          <br> <br>
+    </div>
+
+    </div>
+    </div>
+  </form>
 
         <script>
         document.getElementById("login").onclick = function () {
